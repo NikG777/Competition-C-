@@ -1,0 +1,20 @@
+C:\Users\f\Desktop\Version 8\obj\Release\Konkurs.csprojAssemblyReference.cache
+C:\Users\f\Desktop\Version 8\obj\Release\WindowsFormsApp3.Form1.resources
+C:\Users\f\Desktop\Version 8\obj\Release\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\f\Desktop\Version 8\obj\Release\Konkurs.csproj.GenerateResource.cache
+C:\Users\f\Desktop\Version 8\obj\Release\Konkurs.csproj.CoreCompileInputs.cache
+C:\Users\f\Desktop\Version 8\bin\Release\Konkurs.exe.config
+C:\Users\f\Desktop\Version 8\bin\Release\Konkurs.exe
+C:\Users\f\Desktop\Version 8\bin\Release\Konkurs.pdb
+C:\Users\f\Desktop\Version 8\obj\Release\Konkurs.exe
+C:\Users\f\Desktop\Version 8\obj\Release\Konkurs.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 8,1\Version 8,1\bin\Release\Konkurs.exe.config
+C:\Users\Paf\Desktop\Учеба\САОД\Version 8,1\Version 8,1\bin\Release\Konkurs.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 8,1\Version 8,1\bin\Release\Konkurs.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 8,1\Version 8,1\obj\Release\Konkurs.csprojAssemblyReference.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 8,1\Version 8,1\obj\Release\WindowsFormsApp3.Form1.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 8,1\Version 8,1\obj\Release\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 8,1\Version 8,1\obj\Release\Konkurs.csproj.GenerateResource.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 8,1\Version 8,1\obj\Release\Konkurs.csproj.CoreCompileInputs.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 8,1\Version 8,1\obj\Release\Konkurs.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 8,1\Version 8,1\obj\Release\Konkurs.pdb

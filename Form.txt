@@ -1,0 +1,348 @@
+
+using namespace Competitionspace;
+using namespace Competitorspace;
+
+namespace WindowsFormsApp3
+{
+
+	Form1::Form1()
+	{
+		InitializeComponent();
+		tabPage2->Parent = nullptr;
+		_competition = new Competition();
+		// Инициализируем файлики
+		std::list<FileInfo*> files = _competition->GetTxts().GetFiles("*.txt");
+		for (auto fi : files)
+		{
+			listBox1::Items->Add(StringHelper::replace(fi->Name, ".txt", "").ToString());
+		}
+	}
+
+	void Form1::button2_Click(std::any sender, EventArgs *e)
+	{
+		if (textBox1->Text == "")
+		{
+			MessageBox::Show("Введите название конкурса!");
+		}
+		else if (textBox2->Text->Trim()->length() <= 0 || textBox2->Text == "0")
+		{
+			MessageBox::Show("Введите количество участников!");
+		}
+		else if (textBox6->Text->Trim()->length() <= 0 || textBox6->Text == "0")
+		{
+			MessageBox::Show("Введите количество призовых мест!");
+		}
+		else if (std::stoi(textBox6->Text) > std::stoi(textBox2->Text))
+		{
+			MessageBox::Show("Призовых мест не может быть больше участников!");
+		}
+		else
+		{
+			if (!FileSystem::fileExists(textBox1->Text + ".txt") && !FileSystem::fileExists(_competition->GetTxts() + LR"(\Завершенные конкурсы)" + LR"(\)" + textBox1->Text + ".txt"))
+			{
+				_competition->SetNameCompetition(textBox1->Text);
+				_competition->SetCountUsers(std::stoi(textBox2->Text));
+				_competition->SetCountWinners(std::stoi(textBox6->Text));
+				_competition->SetTxt();
+				tabPage1->Parent = nullptr;
+				tabPage2->Parent = tabControl1;
+				label6->Text = textBox1->Text;
+				label8->Text = textBox2->Text + "/" + textBox6->Text;
+				button8->Enabled = true;
+				textBox4->Enabled = true;
+				button9->Enabled = true;
+				button10->Enabled = true;
+			}
+			else
+			{
+				MessageBox::Show("Конкурс с таким названием уже создан ранее!");
+			}
+		}
+	}
+
+	void Form1::button9_Click(std::any sender, EventArgs *e)
+	{
+			if (textBox4->Text->Trim()->length() > 0)
+			{
+				int newIndexUser = _competition->GetNumberUser();
+				_competition->AddUser(textBox4->Text, std::to_wstring(0), newIndexUser);
+				std::list<std::wstring> items = {std::to_wstring(newIndexUser), textBox4->Text->ToString(), std::to_wstring(0)};
+				ListViewItem tempVar(items);
+				listView1::Items->Add(&tempVar);
+				button10->Enabled = true;
+
+				//MessageBox.Show(_competition.GetCountUsersNow() + " / " + _competition.getCountUsers());
+
+				if (_competition->GetCountUsersNow() >= _competition->GetCountUsers())
+				{
+					button9->Enabled = false;
+					_competition->SetRegUsers(1);
+				}
+				_competition->SetFinishRegUsers();
+			}
+	}
+
+	void Form1::textBox4_KeyPress(std::any sender, KeyPressEventArgs *e)
+	{
+		// Переменная ввода
+		wchar_t letter = e->KeyChar;
+		// Проеверяем введеный символ методами
+		if (std::isalpha(letter) || std::iscntrl(letter) || std::ispunct(letter) || std::isspace(letter))
+		{
+			// Разрешаем ввод
+			e->Handled = false;
+		}
+		else
+		{
+			// Задерживаем символ
+			e->Handled = true;
+		}
+	}
+
+	void Form1::textBox2_KeyPress(std::any sender, KeyPressEventArgs *e)
+	{
+		wchar_t number = e->KeyChar;
+		if (wchar_t::IsNumber(number) || std::iscntrl(number))
+		{
+			e->Handled = false;
+		}
+		else
+		{
+			e->Handled = true;
+		}
+	}
+
+	void Form1::textBox6_KeyPress(std::any sender, KeyPressEventArgs *e)
+	{
+		wchar_t number = e->KeyChar;
+		if (wchar_t::IsNumber(number) || std::iscntrl(number))
+		{
+			e->Handled = false;
+		}
+		else
+		{
+			e->Handled = true;
+		}
+
+	}
+
+	void Form1::textBox1_KeyPress(std::any sender, KeyPressEventArgs *e)
+	{
+		// Переменная ввода
+		wchar_t letter = e->KeyChar;
+		wchar_t previus_letter = L'a';
+		// Проеверяем введеный символ методами
+		if (std::isalpha(letter) || std::iscntrl(letter))
+		{
+			// Разрешаем ввод
+			e->Handled = false;
+			previus_letter = letter;
+		}
+		else
+		{
+			// Задерживаем символ
+			e->Handled = true;
+		}
+	}
+
+	void Form1::listBox1_SelectedIndexChanged(std::any sender, EventArgs *e)
+	{
+		this->textfile = listBox1->Text;
+		_competition->SetNameCompetition(textfile);
+	}
+
+	void Form1::button3_Click(std::any sender, EventArgs *e)
+	{
+		tabPage1->Parent = nullptr;
+		tabPage2->Parent = tabControl1;
+	}
+
+	void Form1::button6_Click(std::any sender, EventArgs *e)
+	{
+		tabPage2->Parent = nullptr;
+		tabPage1->Parent = tabControl1;
+	}
+void ::button4_Click(std::any sender, EventArgs *e)
+{
+	try
+	{
+		std::wstring nameCompetition;
+		nameCompetition = listBox1::SelectedItem->ToString();
+		if (FileSystem::fileExists(nameCompetition + ".txt"))
+		{
+			_competition::IncludeSettingsInFiles(nameCompetition);
+			int maxUsers = _competition::GetCountUsers();
+			int maxUsersWin = _competition::GetCountWinners();
+			label6->Text = nameCompetition;
+			label8->Text = std::to_wstring(maxUsers) + "/" + std::to_wstring(maxUsersWin);
+			button8->Enabled = true;
+			_competition::SetAllUserFromFile(nameCompetition);
+			listView1::Items->Clear();
+			for (Competitor *u1 : _competition::GetUsersList())
+			{
+				std::list<std::wstring> items = {u1->GetIndex().ToString(), u1->GetName()->ToString(), u1->GetBall().ToString()};
+				ListViewItem tempVar(items);
+				listView1::Items->Add(&tempVar);
+			}
+
+			tabPage1->Parent = nullptr;
+			tabPage2->Parent = tabControl1;
+
+			// Если регистрация участников завершена, то показываем это
+			if (_competition::GetRegUsers() == 1)
+			{
+				textBox4->Enabled = false;
+				textBox4->Text = "";
+				textBox3->Enabled = false;
+				textBox3->Text = "";
+				button9->Enabled = false;
+				button10->Enabled = false;
+
+				button5->Enabled = false;
+				button11->Enabled = true;
+			}
+			else
+			{
+				button10->Enabled = true;
+			}
+
+		}
+	}
+	catch (const NullReferenceException &e1)
+	{
+		MessageBox::Show("Вы ничего не выбрали!");
+	}
+}
+
+void ::button8_Click(std::any sender, EventArgs *e)
+{
+	tabPage2->Parent = nullptr;
+	tabPage1->Parent = tabControl1;
+	button8->Enabled = false;
+	textBox1->Text = "";
+	textBox2->Text = "";
+	textBox6->Text = "";
+	std::list<FileInfo*> files = _competition::GetTxts().GetFiles("*.txt");
+	listBox1::Items->Clear();
+	listView1::Items->Clear();
+	for (auto fi : files)
+	{
+		listBox1::Items->Add(StringHelper::replace(fi->Name, ".txt", "").ToString());
+	}
+	_competition = new Competition();
+}
+
+void ::button1_Click(std::any sender, EventArgs *e)
+{
+	Application->Exit();
+}
+
+void ::button5_Click(std::any sender, EventArgs *e)
+{
+	try
+	{
+		std::wstring users;
+		int nuser;
+		users = listView1::SelectedItems[0]->Text;
+		nuser = listView1::SelectedItems[0].Index;
+		_competition::DeleteUser(users);
+		_competition::GetUsersList()->RemoveAt(nuser);
+		listView1::SelectedItems[0]->Remove();
+	}
+	catch (const std::runtime_error &e1)
+	{
+		MessageBox::Show("Нужно выбрать участника");
+	}
+}
+
+void ::button3_Click_1(std::any sender, EventArgs *e)
+{
+	_competition::SetFinish(1);
+	button7->Enabled = true;
+	button5->Enabled = false;
+	button3->Enabled = false;
+	textBox3->Enabled = false;
+	button12->Enabled = false;
+}
+
+void ::button7_Click(std::any sender, EventArgs *e)
+{
+	_competition::SortUsers();
+	listView1::Items->Clear();
+		for (Competitor *u1 : _competition::GetUsersList())
+		{
+			std::list<std::wstring> items = {u1->GetIndex().ToString(), u1->GetName()->ToString(), u1->GetBall().ToString()};
+			ListViewItem tempVar(items);
+			listView1::Items->Add(&tempVar);
+		}
+	try
+	{
+		_competition::SetItogFile();
+		button7->Enabled = false;
+		MessageBox::Show(_competition::GetTextUser(true));
+	}
+	catch (const SystemException &e1)
+	{
+		MessageBox::Show("Этот конкурс уже закончен");
+	}
+}
+
+void ::button10_Click(std::any sender, EventArgs *e)
+{
+	textBox4->Enabled = false;
+	textBox4->Text = "";
+	textBox3->Enabled = false;
+	textBox3->Text = "";
+	button9->Enabled = false;
+	button10->Enabled = false;
+	_competition::SetRegUsers(1);
+	_competition::SetFinishRegUsers();
+	button5->Enabled = false;
+	button11->Enabled = true;
+}
+
+void ::button11_Click(std::any sender, EventArgs *e)
+{
+	textBox3->Enabled = true;
+	button12->Enabled = true;
+	button3->Enabled = true;
+	button5->Enabled = true;
+	button11->Enabled = false;
+}
+void ::button12_Click(std::any sender, EventArgs *e)
+{
+		   std::wstring userId;
+		   if (textBox3->Text != "")
+		   {
+			   try
+			   {
+				   userId = listView1::SelectedItems[0]->Text;
+				   auto item = listView1::SelectedItems[0];
+				   item->SubItems[2]->Text = textBox3->Text;
+				   _competition::SetBallUser(std::stoi(userId), std::stoi(textBox3->Text));
+				   _competition::SetFinishRegUsers();
+				   textBox3->Text = "";
+			   }
+			   catch (const std::runtime_error &e1)
+			   {
+				   MessageBox::Show("Нужно выбрать участника");
+			   }
+		   }
+}
+
+void ::textBox3_KeyPress(std::any sender, KeyPressEventArgs *e)
+{
+	// Переменная ввода
+	wchar_t letter = e->KeyChar;
+	// Проеверяем введеный символ методами
+	if (wchar_t::IsNumber(letter) || std::iscntrl(letter))
+	{
+		// Разрешаем ввод
+		e->Handled = false;
+	}
+	else
+	{
+		// Задерживаем символ
+		e->Handled = true;
+	}
+}

@@ -1,0 +1,140 @@
+C:\Users\f\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\f\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\f\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\f\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\f\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\f\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\f\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\f\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\f\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\f\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsApp3\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\f\Desktop\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\f\Desktop\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\f\Desktop\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\f\Desktop\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\f\Desktop\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\f\Desktop\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\f\Desktop\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\f\Desktop\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\f\Desktop\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\f\Desktop\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\f\Desktop\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\f\Desktop\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\f\Desktop\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\f\Desktop\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\f\Desktop\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\f\Desktop\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 2\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Paf\Desktop\Учеба\САОД\Version 2\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 2\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 2\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 2\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 2\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 2\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 2\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 2\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 2\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Documents\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\f\Documents\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\f\Documents\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Documents\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\f\Documents\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\f\Documents\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\f\Documents\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\f\Documents\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\f\Documents\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\f\Documents\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 4\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Paf\Desktop\Учеба\САОД\Version 4\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 4\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 4\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 4\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 4\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 4\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 4\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 4\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 4\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 5\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Paf\Desktop\Учеба\САОД\Version 5\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 5\WindowsFormsNNApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 5\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 5\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 5\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 5\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 5\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 5\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 5\WindowsFormsNNApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\Version 6\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\f\Desktop\Version 6\bin\Debug\WindowsFormsApp3.exe
+C:\Users\f\Desktop\Version 6\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\Version 6\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\f\Desktop\Version 6\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\f\Desktop\Version 6\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\f\Desktop\Version 6\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\f\Desktop\Version 6\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\f\Desktop\Version 6\obj\Debug\WindowsFormsApp3.exe
+C:\Users\f\Desktop\Version 6\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.1\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.1\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.1\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.1\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.1\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.1\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.1\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.1\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.1\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.1\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\Version 7.3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\f\Desktop\Version 7.3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\f\Desktop\Version 7.3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\Version 7.3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\f\Desktop\Version 7.3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\f\Desktop\Version 7.3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\f\Desktop\Version 7.3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\f\Desktop\Version 7.3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\f\Desktop\Version 7.3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\f\Desktop\Version 7.3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Paf\Desktop\Учеба\САОД\Version 7.3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\Version 8\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\f\Desktop\Version 8\obj\Debug\WindowsFormsApp3.exe
+C:\Users\f\Desktop\Version 8\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\Version 8\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\f\Desktop\Version 8\bin\Debug\WindowsFormsApp3.exe
+C:\Users\f\Desktop\Version 8\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\Version 8\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\f\Desktop\Version 8\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\f\Desktop\Version 8\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\f\Desktop\Version 8\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache

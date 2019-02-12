@@ -1,0 +1,9 @@
+C:\Users\f\Desktop\Version 8\bin\Release\WindowsFormsApp3.exe.config
+C:\Users\f\Desktop\Version 8\bin\Release\WindowsFormsApp3.exe
+C:\Users\f\Desktop\Version 8\bin\Release\WindowsFormsApp3.pdb
+C:\Users\f\Desktop\Version 8\obj\Release\WindowsFormsApp3.Form1.resources
+C:\Users\f\Desktop\Version 8\obj\Release\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\f\Desktop\Version 8\obj\Release\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\f\Desktop\Version 8\obj\Release\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\f\Desktop\Version 8\obj\Release\WindowsFormsApp3.exe
+C:\Users\f\Desktop\Version 8\obj\Release\WindowsFormsApp3.pdb

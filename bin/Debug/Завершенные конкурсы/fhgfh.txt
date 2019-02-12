@@ -1,0 +1,4 @@
+fhgfh 5 5 1 1 1
+2 aaaa 100
+3 bbb 50
+1 hjhgjh 0
